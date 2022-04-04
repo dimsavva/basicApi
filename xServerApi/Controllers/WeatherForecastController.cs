@@ -37,7 +37,7 @@ namespace xServerApi.Controllers
         }
 
         [HttpGet]
-        [ActionName("More")]
+        [ActionName("More2")]
         public IEnumerable<WeatherForecast> GetMore()
         {
             var rng = new Random();
